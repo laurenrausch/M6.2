@@ -8,9 +8,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  background: linear-gradient(#959696, transparent, transparent, transparent, #959696);
-
+  background: #ccc
 }
 
 article {
@@ -40,9 +38,14 @@ h1 {
   text-shadow: 1px 1px 1px black;
 }
 
+.letter {
+  padding: 0;
+  background: linear-gradient(#b5b6b6, transparent, transparent, transparent, transparent, #b5b6b6);
+}
 
 .logo {
   background-image: url('img/logo.png');
+  background-image: no-repeat;
   position: absolute;
   top: 12mm;
   left: 20mm;
