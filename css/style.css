@@ -8,7 +8,13 @@ html {
 
 body {
   margin: 0;
-  background: #ccc
+  background: #c43232
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 article {
@@ -26,25 +32,25 @@ address {
 
 h1 {
   position: absolute;
-  top: 8mm;
-  left: 0mm;
+  top: 30mm;
+  left: 20mm;
   width: 128px;
   height: 128px;
   font-size: 20px;
   letter-spacing: 1px;
-  text-align: center;
   padding: 44px 0;
+  text-align: center;
   color: white;
   text-shadow: 1px 1px 1px black;
 }
 
 .letter {
   padding: 0;
-  background: linear-gradient(#b5b6b6, transparent, transparent, transparent, transparent, #b5b6b6);
+  background: linear-gradient(rgb(206, 206, 205), rgb(255, 0, 0, 0), rgb(255, 0, 0, 0), rgb(255, 0, 0, 0), rgb(206, 206, 205));
 }
 
-.logo {
-  background-image: url('img/logo.png');
+h1.logo {
+  background-image: url('../img/logo.png');
   background-image: no-repeat;
   position: absolute;
   top: 12mm;
@@ -52,10 +58,15 @@ h1 {
   width: 128px;
   height: 128px;
   padding: 44px 0;
+
+  /*filter: drop-shadow(5px 5px 5px black);*/
+
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px black;
 }
 
 .top-border {
-  background-image: ('img/top-image.png');
+  background-image: url('../img/top-image.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -66,7 +77,7 @@ h1 {
 }
 
 .bottom-border {
-  background-image: ('img/bottom-image.png');
+  background-image: url('../img/bottom-image.png');
   background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: fixed;
