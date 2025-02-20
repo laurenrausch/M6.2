@@ -42,7 +42,7 @@ h1 {
 
 
 .logo {
-  background-image: url('logo.png');
+  background-image: url('img/logo.png');
   position: absolute;
   top: 12mm;
   left: 20mm;
@@ -52,14 +52,14 @@ h1 {
 }
 
 .top-border {
-  background-image: url('top-image.png');
+  background-image: url('img/top-image.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .bottom-border {
-  background-image: url('bottom-image.png');
+  background-image: url('img/bottom-image.png');
   background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: fixed;
