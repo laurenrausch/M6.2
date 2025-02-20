@@ -52,15 +52,23 @@ h1 {
 }
 
 .top-border {
-  background-image: url('img/top-image.png');
+  background-image: ('img/top-image.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 0px;
 }
 
 .bottom-border {
-  background-image: url('img/bottom-image.png');
+  background-image: ('img/bottom-image.png');
   background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0px;
 }
