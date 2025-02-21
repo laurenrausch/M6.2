@@ -14,13 +14,11 @@ body {
 
 p {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
 }
 
 article {
   width: 210mm;
-  height: 297mm;
+  height: 400mm;
   margin: 0px auto;
   position: relative;
 }
@@ -88,7 +86,17 @@ h1 {
   bottom: 0px;
 }
 
+main {
+  position: absolute;
+  top: 2px;
+  bottom: 10mm;
+  width: 90%;
+  padding-left: 150px;
+
+}
+
 .header1 {
+  padding-top: 250px;
   text-align: center;
   font-family: 'Georgia', serif;
   font-size: 32px;
@@ -100,16 +108,14 @@ blockquote {
 }
 
 .quote {
+  margin-top: 10px;
   font-size: .75em;
 }
 
 .columns {
+  font-size: .85em;
   column-count: 2;
   justify-content: space-between;
   gap: 20px;
+  display: flex;
 }
-
-
-.left {}
-
-.right {}
