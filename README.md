@@ -27,4 +27,5 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
 https://www.geeksforgeeks.org/html-background-images/
 https://stackoverflow.com/questions/27212782/box-shadow-circle
 https://www.shecodes.io/athena/38452-how-to-move-content-into-different-columns-horizontally-in-html#google_vignette
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
 

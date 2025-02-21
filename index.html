@@ -75,6 +75,11 @@
           therefore always free from repetition, injected humour, or non-characteristic words etc.
 
           <fieldset>
+            <form>
+              Amount:
+              <input type="text" id="amount" name="Amount">
+              <br>
+            </form>
             <div>
               <input type="radio" id="paragraphs" name="drone" value="paragraphs" checked />
               <label for="paragraphs">paragraphs</label>
@@ -95,7 +100,7 @@
               <label for="lists">lists</label>
             </div>
             <div>
-              <button type="Generate Lorum Ipsum">Generate Lorum Ipsum</button>
+              <button oneclick="popUp()">Generate Lorum Ipsum</button>
             </div>
           </fieldset>
         </div>
@@ -115,6 +120,10 @@
 
     <div class="bottom-border"></div>
   </article>
+  <script type="module" script="js/button.js">
+    import { popUp } from './js/button.js';
+    window.popUp = popUp;
+  </script>
 </body>
 
 </html>
