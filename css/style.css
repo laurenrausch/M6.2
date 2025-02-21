@@ -8,7 +8,8 @@ html {
 
 body {
   margin: 0;
-  background: #c43232
+  padding: 0;
+  background: #fdfcfc
 }
 
 p {
@@ -49,7 +50,7 @@ h1 {
   background: linear-gradient(rgb(206, 206, 205), rgb(255, 0, 0, 0), rgb(255, 0, 0, 0), rgb(255, 0, 0, 0), rgb(206, 206, 205));
 }
 
-h1.logo {
+.logo {
   background-image: url('../img/logo.png');
   background-image: no-repeat;
   position: absolute;
@@ -86,3 +87,29 @@ h1.logo {
   height: 100px;
   bottom: 0px;
 }
+
+.header1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 32px;
+}
+
+blockquote {
+  text-align: center;
+  font-style: italic;
+}
+
+.quote {
+  font-size: .75em;
+}
+
+.columns {
+  column-count: 2;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+.left {}
+
+.right {}

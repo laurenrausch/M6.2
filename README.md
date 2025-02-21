@@ -1,29 +1,30 @@
-# web-dev-starter
+# Running my website!
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+## Step One
 
-## Getting Started
-
-To get started, clone this repository and run the following commands:
+Before running, clone this repository and run the following commands:
 
 ```bash
 npm install
 ```
-This will install the necessary dependencies for the project.
+## Step Two
 
-## Development
+You can run the website through Live Preview VSCode extension which will start the local server for the webpage, run it with the following keystroke: 
 
-It is recommended to use the VSCode Live Server extension to run the project
-locally. This will allow you to see changes in real-time as you make them. There
-is no need to run a build process or refresh the page manually. Additionally,
-you do not need to setup a local server to run the project.
+    Ctrl+Shift+P
+    Live Preview: Start Sever
 
-## Testing
+From here you should be able to use the website and be able to view the letter.
+You can also use the same URL from the live preview and use it in an actual browser page and be able to see the same result. 
 
-To run the tests for the project, run the following command:
+You can also run the website within VSCode through the built in Run and Debug tool, with these key strokes:
 
-```bash
-npm test
-```
+    Ctrl+Shift+D
+
+### OutSide Sources ###
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
+https://www.geeksforgeeks.org/html-background-images/
+https://stackoverflow.com/questions/27212782/box-shadow-circle
+https://www.shecodes.io/athena/38452-how-to-move-content-into-different-columns-horizontally-in-html#google_vignette
+
