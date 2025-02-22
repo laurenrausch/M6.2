@@ -124,3 +124,7 @@ blockquote {
   gap: 20px;
   display: flex;
 }
+
+fieldset {
+  font-size: 1.2em;
+}
