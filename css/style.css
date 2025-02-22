@@ -72,6 +72,7 @@ h1 {
   width: 100%;
   height: 100px;
   top: 0px;
+  border-top: 1mm solid rgb(120, 212, 70);
 }
 
 .bottom-border {
@@ -83,6 +84,7 @@ h1 {
   width: 100%;
   height: 100px;
   bottom: 0px;
+  border-bottom: 1mm solid rgb(120, 212, 70);
 }
 
 main {
