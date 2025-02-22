@@ -23,9 +23,15 @@ You can also run the website within VSCode through the built in Run and Debug to
 
 ### OutSide Sources ###
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-https://www.geeksforgeeks.org/html-background-images/
-https://stackoverflow.com/questions/27212782/box-shadow-circle
-https://www.shecodes.io/athena/38452-how-to-move-content-into-different-columns-horizontally-in-html#google_vignette
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
+GeeksforGeeks. (2024, May 21). HTML background images. https://www.geeksforgeeks.org/html-background-images/ 
+
+gsiradze4, & David ThomasDavid. box shadow circle. Stack Overflow. https://stackoverflow.com/questions/27212782/box-shadow-circle 
+
+MozDevNet. (n.d.-a). Columns - CSS: Cascading style sheets: MDN. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/CSS/columns 
+
+MozDevNet. (n.d.-b). MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio 
+
+MozDevNet. (n.d.-c). Using CSS gradients - CSS: Cascading style sheets: MDN. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients 
+
+ZombieBatman, & Parthik Gosar. How to get the value of a selected Radio Button. Stack Overflow. https://stackoverflow.com/questions/15839169/how-to-get-the-value-of-a-selected-radio-button 
 
