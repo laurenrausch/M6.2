@@ -129,4 +129,7 @@ blockquote {
 
 fieldset {
   font-size: 1.2em;
+  padding: 8px;
+  line-height: 30px;
+
 }
