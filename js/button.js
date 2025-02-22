@@ -1,3 +1,4 @@
-export function popUp{
-    alert('Hello World!!');
+export function popUp() {
+    alert("hello world!");
+
 }

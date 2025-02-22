@@ -93,8 +93,15 @@ main {
   background: rgb(255, 0, 0, 0);
 }
 
+.languages {
+  padding-top: 240px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 12px;
+}
+
 .header1 {
-  padding-top: 250px;
+  padding-top: 20px;
   text-align: center;
   font-family: 'Georgia', serif;
   font-size: 32px;
